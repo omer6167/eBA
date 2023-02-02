@@ -1,0 +1,285 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="eba.net">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eba.net.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAAnalyse">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAAnalyse.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAAssemblyResolver">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAAssemblyResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAAttachmentsLoader">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAAttachmentsLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAAuthentication">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAAuthentication.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAAuthenticationCommon">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAAuthenticationCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAAuthenticationInterface">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAAuthenticationInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABarcodeGenerator">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABarcodeGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABaseClient">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABaseClient.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABaseDocumentViewer">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABaseDocumentViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABaseFlow">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABaseFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABaseService">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABaseService.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABaseWCFService">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABaseWCFService.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABL">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABL.dll</HintPath>
+    </Reference>
+    <Reference Include="eBABYSHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBABYSHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBACache">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBACache.dll</HintPath>
+    </Reference>
+    <Reference Include="eBACacheHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBACacheHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBACaptureClientAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBACaptureClientAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBACaptureXmlWSDeserializationHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBACaptureXmlWSDeserializationHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAClientServices">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAClientServices.dll</HintPath>
+    </Reference>
+    <Reference Include="eBACompilerHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBACompilerHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAConfiguration">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAConfiguration.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAConfigurationHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAConfigurationHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAContentServerAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAContentServerAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAContext">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAContext.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAControls">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAControls.dll</HintPath>
+    </Reference>
+    <Reference Include="eBACustomControls">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBACustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADB">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADB.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADBHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADBHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADBSchemaHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADBSchemaHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADBSchemaUpdaterApi">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADBSchemaUpdaterApi.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADigitalSignatureCRLUpdater">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADigitalSignatureCRLUpdater.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADMFileBrowser">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADMFileBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADMHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADMHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADMMaintenance">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADMMaintenance.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADocumentArchiveControl">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADocumentArchiveControl.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADocumentBuilder">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADocumentBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADocumentConverter">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADocumentConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADocumentViewerHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADocumentViewerHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBADSAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBADSAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAEMLAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAEMLAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAEntity">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAExport">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAExport.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAExternalEncryption">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAExternalEncryption.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAFlowGraph">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAFlowGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAFlowKEPAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAFlowKEPAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAFlowManager">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAFlowManager.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAFlowScrAdp">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAFlowScrAdp.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAFormData">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAFormData.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAFormlarArasiVeriAktarma">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAFormlarArasiVeriAktarma.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAFormYazismaOlusturucu">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAFormYazismaOlusturucu.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAHRAPI.Model">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAHRAPI.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAHTMLCodeFormatter">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAHTMLCodeFormatter.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAIndexerIFilter">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAIndexerIFilter.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAIntegrationAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAIntegrationAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBALibrary">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBALibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="eBALogAPIHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBALogAPIHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBALogCompressor">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBALogCompressor.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAMailAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAMailAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAMailIntegration">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAMailIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="ebanet">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\ebanet.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAOrganization">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAOrganization.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAPDFExport">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAPDFExport.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAPIClientAdapter">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAPIClientAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAProcessSchedulerJob">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAProcessSchedulerJob.dll</HintPath>
+    </Reference>
+    <Reference Include="eBARegistrySettings">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBARegistrySettings.dll</HintPath>
+    </Reference>
+    <Reference Include="eBARelationsLoader">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBARelationsLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="eBARetentionCheckJob">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBARetentionCheckJob.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASAPAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASAPAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASAPAPI3">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASAPAPI3.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASAPConnectorHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASAPConnectorHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASchedulerAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASchedulerAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASchedulerHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASchedulerHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASecurity">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASerialization">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASerialization.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAServerAdapter">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAServerAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASystemAPI">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASystemAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASystemHelper">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASystemHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="eBASystemIntegrationFramework">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBASystemIntegrationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAVeritabanindanVeriCekme">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAVeritabanindanVeriCekme.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAWorkDayCalculator">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAWorkDayCalculator.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAWorkflowSchedules">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAWorkflowSchedules.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAXMLExport">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAXMLExport.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAYazismaOlusturucu">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAYazismaOlusturucu.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAYazismaPaketiOlusturucu">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAYazismaPaketiOlusturucu.dll</HintPath>
+    </Reference>
+    <Reference Include="eBAZipLibrary">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\eBAZipLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EBYSVisualWebControl">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\EBYSVisualWebControl.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="TCMBCurrencies">
+      <HintPath>..\..\..\..\Desktop\Onenote-Save\Dll\TCMBCurrencies.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
